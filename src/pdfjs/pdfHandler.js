@@ -17,7 +17,7 @@ limitations under the License.
 
 'use strict';
 
-var VIEWER_URL = chrome.extension.getURL('chromium/content/web/viewer.html');
+var VIEWER_URL = chrome.extension.getURL('pdfjs/content/web/viewer.html');
 
 function getViewerURL(pdf_url) {
   return VIEWER_URL + '?file=' + encodeURIComponent(pdf_url);
